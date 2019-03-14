@@ -32,7 +32,7 @@ nav li {
   font-size: 1.75vw;
   position: relative;
 }
-nav a {
+a {
   color: #f77000;
   text-decoration: none;
   text-transform: uppercase;
