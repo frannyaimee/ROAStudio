@@ -2,6 +2,7 @@
 >First Redline Project
 Start date: March 6th
 Project Status: Finished unless client requests changes
+This was an exercise given by BeCode with the task to recreate a website for an architect company.
 
 >Installation:
 >No Installation needed. This code was written on Sublime Text and are written in HTML and CSS. 
@@ -44,3 +45,6 @@ a:visited{
 >This is how I created the animation on the navigation bar using CSS.
 
 No license, I am the only contributor.
+
+URL where the website is published:
+https://frannyaimee.github.io/ROAStudio/
