@@ -80,10 +80,10 @@ footer {
 }
 a#quote {
   text-transform: none;
-  color: gray;
+  color: #f77000;
 }
 a#quote:hover {
-  color: #f77000;
+  color: gray;
 }
 
 /*Image Slider*/
