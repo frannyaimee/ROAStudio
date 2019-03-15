@@ -8,12 +8,16 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
-	<title>Redline Project</title>
+	
+	<title>ROA Studio Inc.</title>
 </head>
 <body>
+	<!-- Company Logo and Nav bar with CSS animation -->
 	<header>
 		<div class="container">
-			<a href="index.html"><img src="ROA.png" alt="logo" class="logo"></a>
+			<a href="index.html">
+				<img src="ROA.png" alt="logo" class="logo">
+			</a>
 			<nav>
 				<ul class="menu">
 					<li><a class="grow" href="index.html">Home</a></li>
@@ -23,97 +27,99 @@
 			</nav>
 		</div>
 	</header>
-	<form action="MAILTO:frannyaimee@gmail.com" method="GET" enctype="text/plain">
-	<div class="forum">
-		<form action="MAILTO:frannyaimee@gmail.com" method="POST" enctype="text/plain">
-		<div class="inside">
-			<input type="text" name="firstName" placeholder="First Name">
-			<br />
-			<input type="text" name="lastName" placeholder="Last Name">
-			<br />
-			<input type="E-mail" name="email" placeholder="E-mail">
-			<br/ >
-        	<select placeholder="Reason for Contact">
-	          	<option value="" disabled selected >Select your option</option>
-	            <option placeholder="Reason for Contact" value="Architect">Need Architect</option>
-	            <option value="rates">Iquiring about rates</option>
-	            <option value="infor">Need More information</option>
-	            <option value="other">Other/Specified Below</option>
-          	</select><br/>
-          	<br /><textarea name="message" cols="20" rows="2" id="message" placeholder="Enter Comments Here"></textarea><br/>
-          	<div class="send">
-          		<input type="Submit" name="Submit" value="Send" >
-      			<input type="Reset" value="Reset" >
-      		</div>
+	<!-- Question Forum for Business Inquiries -->
+		<div class="forum">
+			<div class="inside">
+				<input type="text" name="firstName" placeholder="First Name">
+				<br />
+				<input type="text" name="lastName" placeholder="Last Name">
+				<br />
+				<input type="E-mail" name="email" placeholder="E-mail">
+				<br />
+		        <select placeholder="Reason for Contact">
+		          	<option value="" disabled selected> Select your option </option>
+		            <option placeholder="Reason for Contact" value="Architect"> Need Architect </option>
+		            <option value="rates">Inquiring about rates</option>
+		            <option value="infor">Need More information</option>
+		            <option value="other">Other/Specified Below</option>
+	          	</select>
+	          	<br />
+	          	<br />
+	          	<textarea name="message" cols="20" rows="2" id="message" placeholder="Enter Comments Here"></textarea>
+	          	<br />
+	          	<div class="send">
+	          		<input type="Submit" name="Submit" value="Send" >
+	      			<input type="Reset" value="Reset" >
+	      		</div>
+			</div>
+			<!-- Google Map With Location -->
+			<div class="google" >
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2946.058247037996!2d-82.18507198464559!3d42.405204679183875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882ff859dae87931%3A0xa3c7d3465d715152!2sROA+Studio+Inc.!5e0!3m2!1sen!2sbe!4v1552404510288" width="400" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+			</div>
 		</div>
-		</form>
-		<div class="google" >
-			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2946.058247037996!2d-82.18507198464559!3d42.405204679183875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882ff859dae87931%3A0xa3c7d3465d715152!2sROA+Studio+Inc.!5e0!3m2!1sen!2sbe!4v1552404510288" width="400" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
-		</div>
-	</div>
 	<div class="general">
 		<div class="info">
 			<div class="left">
-				<h2 class="ginfo">General Info:</h2>
-				   <table class="text">
-				  <tr>
-				    <th><i class="fas fa-phone"></i></th>
-				    <td class="info">+1 519-397-0943</td>
-				  </tr>
-				  <tr>
-				    <th><i class="fas fa-envelope"></i></th>
-				    <td class="info">info@roastudio.com</td>
-				  </tr>
-				  <tr>
-				    <th><i class="fas fa-location-arrow" class="arrow"></i></th>
-				    <td class="info">67 King St W, 
-				    Chatham, Canada</td>
-				  </tr>
+			<h2 class="ginfo">General Info:</h2>
+				<table class="text">
+			  		<tr>
+			    		<th><i class="fas fa-phone"></i></th>
+			    		<td class="info">+1 519-397-0943</td>
+			  		</tr>
+			  		<tr>
+			    		<th><i class="fas fa-envelope"></i></th>
+			    		<td class="info">info@roastudio.com</td>
+			  		</tr>
+			  		<tr>
+			    		<th><i class="fas fa-location-arrow" class="arrow"></i></th>
+			    		<td class="info">67 King St W, 
+			    			Chatham, Canada</td>
+			  		</tr>
 				</table>
 			</div>
 		</div>
 		<div class="hours">
 			<div class="right">
-			<h2 class="winfo">Working Hours:</h2>
-			  <table class="text">
-				  <tr>
-				    <th>Monday</th>
-				    <td class="info">8:30am–5pm</td>
-				  </tr>
-				  <tr>
-				    <th>Tuesday</th>
-				    <td class="info">8:30am–5pm</td>
-				  </tr>
-				  <tr>
-				    <th class="arrow">Wednesday</th>
-				    <td class="info">8:30am–5pm</td>
-				  </tr>
-				  <tr>
-				    <th class="arrow">Thursday</th>
-				    <td class="info">8:30am–5pm</td>
-				  </tr>
-				  <tr>
-				    <th class="arrow">Friday</th>
-				    <td class="info">8:30am–5pm</td>
-				  </tr>
-				  <tr>
-				    <th class="arrow">Saturday</th>
-				    <td class="info">Closed</td>
-				  </tr>
-				  <tr>
-				    <th class="arrow">Sunday</th>
-				    <td class="info">Closed</td>
-				  </tr>
+				<h2 class="winfo">Working Hours:</h2>
+				<table class="text">
+					<tr>
+				    	<th>Monday</th>
+				    	<td class="info">8AM–5PM</td>
+				  	</tr>
+				  	<tr>
+				    	<th>Tuesday</th>
+				    	<td class="info">8AM–5PM</td>
+				  	</tr>
+				 	<tr>
+					    <th class="arrow">Wednesday</th>
+					    <td class="info">8AM–5PM</td>
+				  	</tr>
+				  	<tr>
+					    <th class="arrow">Thursday</th>
+					    <td class="info">8AM–5PM</td>
+				  	</tr>
+				  	<tr>
+					    <th class="arrow">Friday</th>
+					    <td class="info">8AM–5PM</td>
+				  	</tr>
+				  	<tr>
+					    <th class="arrow">Saturday</th>
+					    <td class="info">Closed</td>
+				  	</tr>
+				  	<tr>
+					    <th class="arrow">Sunday</th>
+					    <td class="info">Closed</td>
+				  	</tr>
 				</table>
 			</div>
 		</div>
-
 	</div>
-	<footer>Copyright © 2019 ROA Studios. 
-		<br />All Rights Reserved.</footer>
-
+	<footer>
+		Copyright © 2019 ROA Studios Inc. 
+		<br />
+		All Rights Reserved.
+	</footer>
 <script>
-
 </script>
 </body>
 </html>
