@@ -78,6 +78,13 @@ footer {
   position: relative;
   margin: 3%;
 }
+a#quote {
+  text-transform: none;
+  color: gray;
+}
+a#quote:hover {
+  color: #f77000;
+}
 
 /*Image Slider*/
 
